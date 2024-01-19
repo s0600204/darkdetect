@@ -6,6 +6,7 @@ venv
 /dist
 /*.egg-info
 .*
+!.circleci
 !.travis.yml
 !.appveyor.yml
 __pycache__
