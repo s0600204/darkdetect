@@ -1,0 +1,19 @@
+Source: darkdetect
+Section: python
+Priority: optional
+Maintainer: s0600204 <dev@s0600204>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ pybuild-plugin-pyproject,
+ python3-all
+Standards-Version: 4.6.2
+Homepage: https://github.com/albertosottile/darkdetect
+
+Package: python3-darkdetect
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends}
+Description: Detect OS Dark Mode from Python
+ This package allows determining whether the user is using Dark Mode.
